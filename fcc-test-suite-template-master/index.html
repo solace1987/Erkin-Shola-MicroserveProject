@@ -13,25 +13,28 @@
 <p id='description'>Please complete this Survey, so as to serve better. Thank you.</p>
 <form id="survey-form">
   
-  <div>
-    <label for="name" id='name-label'>Name</label>
-    <input id ="name" placeholder="Enter Your Name" required>
+  <div >
+    <label for="name" id='name-label'>Name</label><br/>
+    <input class='inputs' id ="name" placeholder="Enter Your Name" required>
+</div>
+<div >
+  <label for="email" id='email-label'>Email</label><br/>
+  <input class='inputs' id='email' type='email' placeholder='Enter Your Email' required>
+</div>
+<div >
+  <label for="number" id='number-label'>Number</label><br/>
+  <input class='inputs' id = "number" type ="number" min='999999999' max='999999999999' placeholder="Enter your Phone number">
 </div>
 <div>
-  <label for="email" id='email-label'>Email</label>
-  <input id='email' type='email' placeholder='Enter Your Email' required>
-</div>
-<div>
-  <label for="number" id='number-label'>Number</label>
-  <input id = "number" type ="number" min='999999999' max='999999999999' placeholder="Enter your Phone number">
-</div>
 <select id="dropdown">
   <option>Male</option>
   <option>Female</option>
 </select>
-<p>Are you satisfied:</p>
+</div>
+
 
 <div>
+  <p>Are you satisfied?:</p>
   <input type="radio" name="response" value="male"> Yes<br>
 <input type="radio" name="response" value="female"> No<br>
 </div>

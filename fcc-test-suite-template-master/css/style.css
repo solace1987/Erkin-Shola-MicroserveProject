@@ -1,0 +1,21 @@
+body{
+background-color: rgb(37, 98, 168);
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+
+}
+
+div{
+
+    padding-top: 25px;
+}
+h1{
+border:2px dotted white ;
+   
+}
+.inputs{
+    height:25px;
+    width:40%;
+    border-radius: 5px;
+}
